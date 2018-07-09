@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Calcul pourcentage</title>
+	<title>Percentage calculation</title>
 	<script type="text/javascript">
 		function calcBefore()
 		{
@@ -33,16 +33,16 @@
 <body>
 
 	<form name="CalcPercentForm">
-		<i>(point "." décimal)</i><br>
-		Montant AVANT :<br>
+		<i>(use decimal point e.g. "3.5")</i><br>
+		"Before" amount :<br>
 		<input type="text" name="before" id="before" pattern="^[-+]?([0-9]+(\.[0-9]*)?|\.[0-9]+)$" value="0">
-		<input type="button" onclick="calcBefore()" value="Calculer"><br>
-		Pourcentage % :<br>
+		<input type="button" onclick="calcBefore()" value="Calculate"><br>
+		Percentage % :<br>
 		<input type="text" name="percent" id="percent" pattern="^[-+]?([0-9]+(\.[0-9]*)?|\.[0-9]+)$" value="0">
-		<input type="button" onclick="calcPercent()" value="Calculer"><br>
-		Montant APRES :<br>
+		<input type="button" onclick="calcPercent()" value="Calculate"><br>
+		"After" amount :<br>
 		<input type="text" name="after" id="after" pattern="^[-+]?([0-9]+(\.[0-9]*)?|\.[0-9]+)$" value="0">
-		<input type="button" onclick="calcAfter()" value="Calculer"><br>
+		<input type="button" onclick="calcAfter()" value="Calculate"><br>
 	</form>
 
 </body>
