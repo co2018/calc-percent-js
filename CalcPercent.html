@@ -16,6 +16,9 @@
 		function calcPercent()
 		{
 			var before = Number(document.getElementById("before").value);
+			if (before == 0) {
+				alert("Before value can't be equal to 0 !");
+			}
 			var percent = document.getElementById("percent");
 			var after = Number(document.getElementById("after").value);
 			percent.value = ((after - before) / before) * 100;
